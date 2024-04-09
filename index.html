@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left-container">
+        <div class="odin"></div>
+        <p class="credit"></p>
+        
+    </div>
+    <div class="right-container">
+        <div class="text">
+            <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up <em>now</em> to get started
+            </h1>
+            <h1>You <em>know</em> you want to</h1>
+        </div>
+    </div>
+
+    <form action="https://httpbin.org/post" method="post">
+        <div class="form-field">
+            <p>Let's do this</p>
+            <label for="first-name">first name</label>
+            <input type="text" name="first-name" id="first-name">
+            <label for="last-name">last name</label>
+            <input type="text" name="last" id="last">
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">phone number</label>
+            <input type="number" name="phone" id="phone">
+            <label for="pwd">password</label>
+            <input type="password" name="pwd" id="pwd">
+            <label for="confirm-pwd">confirm password</label>
+            <input type="password" name="confirm-pwd" id="confirm-pwd">            
+        </div>
+        <div class="form-button">
+            <button type="submit">Create Account</button>
+            <p>Already have an accoutn? <a href="http://">Log in</a></p>
+        </div>
+    </form>
+    
+</body>
+</html>
