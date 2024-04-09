@@ -8,8 +8,11 @@
 </head>
 <body>
     <div class="left-container">
-        <div class="odin"></div>
-        <p class="credit"></p>
+        <!-- <img src="/images/halie-west-25xggax4bSA-unsplash.jpg" alt=""> -->
+        <div class="odin">
+            <img src="/images/odin-lined.png" alt=""> <span>ODIN</span>
+        </div>
+        <p class="credit">Photo by Halie West on Unsplash</p>
         
     </div>
     <div class="right-container">
@@ -19,29 +22,28 @@
             </h1>
             <h1>You <em>know</em> you want to</h1>
         </div>
+        <form action="https://httpbin.org/post" method="post">
+            <div class="form-main">
+                <p>Let's do this</p>
+                <label for="first-name">first name</label>
+                <input type="text" name="first-name" id="first-name">
+                <label for="last-name">last name</label>
+                <input type="text" name="last" id="last">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email">
+                <label for="phone">phone number</label>
+                <input type="number" name="phone" id="phone">
+                <label for="pwd">password</label>
+                <input type="password" name="pwd" id="pwd">
+                <label for="confirm-pwd">confirm password</label>
+                <input type="password" name="confirm-pwd" id="confirm-pwd">            
+            </div>
+            <div class="form-bottom">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="http://">Log in</a></p>
+            </div>
+        </form>
     </div>
-
-    <form action="https://httpbin.org/post" method="post">
-        <div class="form-field">
-            <p>Let's do this</p>
-            <label for="first-name">first name</label>
-            <input type="text" name="first-name" id="first-name">
-            <label for="last-name">last name</label>
-            <input type="text" name="last" id="last">
-            <label for="email">email</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">phone number</label>
-            <input type="number" name="phone" id="phone">
-            <label for="pwd">password</label>
-            <input type="password" name="pwd" id="pwd">
-            <label for="confirm-pwd">confirm password</label>
-            <input type="password" name="confirm-pwd" id="confirm-pwd">            
-        </div>
-        <div class="form-button">
-            <button type="submit">Create Account</button>
-            <p>Already have an accoutn? <a href="http://">Log in</a></p>
-        </div>
-    </form>
     
 </body>
 </html>
