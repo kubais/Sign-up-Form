@@ -160,18 +160,25 @@ form input:focus {
   
 /* Small screens */
 @media all and (max-width: 800px) {
+    .left-container {
+        width: 20vw;
+    }
+
+    .form-container {
+        width: 80vw;
+    }
     .odin span {
         color: whitesmoke;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-family: Norse-Bold;
-        padding-left: 1.5rem;
-        padding-top: 0.7rem;    
+        padding-left: 0.5rem;
+        padding-top: 2rem;    
     }
 
     .form-name, .form-contact, .form-password {
         display: flex;
         flex-direction: column;
-        gap: 5vw;         
+        gap: 2vw;         
     
     }
     .credit {
@@ -185,9 +192,20 @@ form input:focus {
         background-color: aliceblue;
         display: flex;
         flex-direction: column;
-        height: 30vh;   
+        height: 20vh;   
+        font-size: 0.6rem;
+        padding-top: 2vh;
+    }
+    form label {
+        font-size: 0.6rem;
+        font-weight: 300;  
+        text-transform: uppercase;        
+    }
+    .submit button {
         font-size: 0.8rem;
-        padding-top: 5vh;
+    }
+    .submit p {
+        font-size: 0.8rem;
     }
     
 }
