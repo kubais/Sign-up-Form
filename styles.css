@@ -202,10 +202,17 @@ form input:focus {
         text-transform: uppercase;        
     }
     .submit button {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+        padding: 10px 20px;
     }
     .submit p {
         font-size: 0.8rem;
+    }
+    input, label {
+        display: block;
+    }
+    form input {
+        width: 40vw;
     }
     
 }
