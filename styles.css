@@ -68,8 +68,12 @@ html, body {
 }
 
 .form {
-    box-shadow: 0px 6px 8px -1px rgba(157,155,173,0.68);
-    
+    box-shadow: 0px 6px 8px -1px rgba(157,155,173,0.68);    
+}
+
+.form p {
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .form-header {
@@ -78,7 +82,8 @@ html, body {
     flex-direction: column;
     height: 30vh;   
     font-size: 1.5rem;
-    padding-top: 5vh;
+    padding: 5vw 6vw 0 6vw;
+    
 }
 
 .form-header p {
@@ -86,7 +91,7 @@ html, body {
     padding: 1rem 0 
 }
 
-.form-header, .form, .submit {
+.form, .submit {
     padding: 3vh 6vw;
 }
 
@@ -104,15 +109,16 @@ form {
 }
 
 form label {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 300;  
     text-transform: uppercase;
 }
 
 form input {
     width: 20vw;
-    border: 1px solid rgb(131, 129, 129, 0.3);
+    border: 2px solid rgb(131, 129, 129, 0.3);
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 form input:hover {
@@ -131,6 +137,7 @@ form input:focus {
 .submit {
     background-color: aliceblue;
     flex: 1;
+    padding-top: 5vh;
 
 }
 
