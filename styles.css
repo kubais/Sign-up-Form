@@ -161,11 +161,11 @@ form input:focus {
 /* Small screens */
 @media all and (max-width: 800px) {
     .left-container {
-        width: 20vw;
+        width: 30vw;
     }
 
     .form-container {
-        width: 80vw;
+        width: 70vw;
     }
     .odin span {
         color: whitesmoke;
@@ -206,13 +206,13 @@ form input:focus {
         padding: 10px 20px;
     }
     .submit p {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     input, label {
         display: block;
     }
     form input {
-        width: 40vw;
+        width: 60vw;
     }
     
 }
