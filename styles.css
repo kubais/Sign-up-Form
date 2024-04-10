@@ -157,6 +157,41 @@ form input:focus {
     color: darkslateblue;
 }
 
+  
+/* Small screens */
+@media all and (max-width: 800px) {
+    .odin span {
+        color: whitesmoke;
+        font-size: 1rem;
+        font-family: Norse-Bold;
+        padding-left: 1.5rem;
+        padding-top: 0.7rem;    
+    }
+
+    .form-name, .form-contact, .form-password {
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;         
+    
+    }
+    .credit {
+        color: whitesmoke;
+        font-size: 0.4rem;
+        text-align: center;
+        margin-top: auto;
+        padding-bottom: 0.5rem;
+    }
+    .form-header {
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        height: 30vh;   
+        font-size: 0.8rem;
+        padding-top: 5vh;
+    }
+    
+}
+
 
 
 
