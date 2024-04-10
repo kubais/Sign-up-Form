@@ -3,56 +3,53 @@
     src: url(/fonts/Norse-Bold.otf);
   }
 
+html {
+    font-size: 20px;
+}
+
 html, body {
-    height: 100%;
+    height: 100vh;
 }
 
   body {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .left-container {
     display: flex;
     flex-direction: column;
-    width: 35%;
-    height: 100%;
+    width: 35vw;
+    height: 100vh;
     justify-content: space-between;
     background-image: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.right-container {
-    display: flex;
-    flex-direction: column;
-    width: 65%;
-    height: 100%;
-
-}
-
-
-
 .odin {
     background-color: rgba(26, 26, 26, 0.33); 
-    margin-top: 200px;
+    margin-top: 20vh;
     display: flex;
     justify-content: center;   
     justify-items: center;
 }
 
 .odin img {
-    height: 100px;
+    height: 10vh;
     align-self: center;
 }
 
 .odin span {
     color: whitesmoke;
-    font-size: 70px;
+    font-size: 4rem;
     font-family: Norse-Bold;
-    padding-left: 30px;
-    padding-top: 15px;
+    padding-left: 1.5rem;
+    padding-top: 0.7rem;
 
 }
 
@@ -61,5 +58,112 @@ html, body {
     font-size: 0.8rem;
     text-align: center;
     margin-top: auto;
+    padding-bottom: 0.5rem;
 }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+}
+
+.form {
+    box-shadow: 0px 6px 8px -1px rgba(157,155,173,0.68);
+    
+}
+
+.form-header {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;   
+    font-size: 1.5rem;
+    padding-top: 5vh;
+}
+
+.form-header p {
+    margin: 0;
+    padding: 1rem 0 
+}
+
+.form-header, .form, .submit {
+    padding: 3vh 6vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;   
+}
+
+.form-name, .form-contact, .form-password {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;  
+    
+}
+
+form label {
+    font-size: 0.6rem;
+    font-weight: 300;  
+    text-transform: uppercase;
+}
+
+form input {
+    width: 20vw;
+    border: 1px solid rgb(131, 129, 129, 0.3);
+    border-radius: 5px;
+}
+
+form input:hover {
+    border: 2px solid rgb(131, 129, 129, 1);
+}
+
+.form-password :user-invalid {
+    border: 2px solid red;
+}
+
+form input:focus {
+    border: 2px solid blue;
+    box-shadow: 0 3px 10px -5px rgb(70, 70, 180);
+}
+
+.submit {
+    background-color: aliceblue;
+    flex: 1;
+
+}
+
+.submit button {
+    padding: 10px 50px;
+    font-size: 0.8rem;
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color: #596D48;
+    
+}
+
+.submit button:hover {
+    background-color: #49573e;
+}
+
+.submit button:active {
+    background-color: #333b2c;
+}
+
+.submit a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+
+
+
+
+
+
+
+
+
 
