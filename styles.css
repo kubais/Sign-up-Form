@@ -26,7 +26,7 @@ html, body {
     width: 35vw;
     height: 100vh;
     justify-content: space-between;
-    background-image: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
